@@ -20,7 +20,7 @@ Building this app helped me to understand [jquery](https://api.jquery.com/) and 
 
 ## Credits
 
-The base HTML and CSS were provided by the bootcamp I'm currently involved in.
+The base HTML and CSS were provided by the bootcamp I'm currently involved in (week 7, day 1, activity 10: event delegation deletion)
 
 ## Improvements
 
