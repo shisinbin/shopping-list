@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <title>jQuery Shopping List</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/jass.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+
+  <body class="bg-dark text-light">
+    <main class="my-5 mx-auto">
+      <h1>Shopping List</h1>
+      <hr />
+
+      <h2>Add an item to the list.</h2>
+      <form id="shopping-form">
+        <input
+          type="text"
+          class="form-input w-100"
+          id="shopping-input"
+          name="shopping-input"
+          placeholder="Enter item name"
+        />
+        <button class="btn btn-info">Add Item</button>
+      </form>
+
+      <ul id="shopping-list"></ul>
+
+      <button class="btn btn-danger" id="remove-all" style="display: none">
+        Remove All
+      </button>
+    </main>
+
+    <!-- jquery library -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jquery ui -->
+    <script
+      src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
+      integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- my js file -->
+    <script type="text/javascript" src="assets/js/script.js"></script>
+  </body>
+</html>
