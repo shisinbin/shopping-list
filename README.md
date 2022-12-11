@@ -2,9 +2,13 @@
 
 ## Description
 
-A simple shopping list app that allows users to add items onto a shopping list. Users are able to add/remove items and change the order (by clicking and dragging items around). Items are stored in the browser's local storage, so when refreshing the page the list is repopulated with those items, in the order that it was last in.
+A simple app that allows users to add items onto a shopping list.
 
-Building this app helped me to understand jquery and jquery ui a bit better, in particular the `sortable()` widget/method, and generally just practice splitting code into functions, event listeners, and generally working out the logic required to build a slightly more complex app.
+Users are able to add or remove items onto a list and change its order (by clicking and dragging items around).
+
+Items are stored in the browser's local storage, so when refreshing the page the list is repopulated with those items, in the order that it was last in.
+
+Building this app helped me to understand [jquery](https://api.jquery.com/) and [jquery ui](https://api.jqueryui.com/) a bit better, in particular the [`sortable()`](https://jqueryui.com/sortable/) widget/method, and generally just practice splitting code into functions, event listeners, and generally working out the logic required to build a slightly more complex app.
 
 The app is accessible at the following link:
 
